@@ -1,5 +1,6 @@
 # INVentry - Intelligent Inventory Management System
 
+[![Live Demo](https://img.shields.io/badge/demo-online-green.svg)](https://in-ventry-w-eb-1eju.vercel.app/)
 ![Project Banner](https://via.placeholder.com/1200x400?text=INVentry+Dashboard)
 
 > **AI-Assisted Development**: This project was built with the assistance of advanced AI coding agents, leveraging modern best practices for scalability and maintainability.
