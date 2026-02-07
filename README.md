@@ -38,8 +38,8 @@
 
 ### 1. Clone the Repository
 ```bash
-git clone https://github.com/YOUR_USERNAME/INVentry.git
-cd INVentry
+git clone https://github.com/ssr4king/INVentry_WEb.git
+cd INVentry_WEb
 ```
 
 ### 2. Backend Setup
