@@ -14,7 +14,21 @@ const app = express();
 
 // Middleware
 app.use(express.json());
-app.use(cors());
+
+const corsOptions = {
+    origin: [
+        'https://in-ventory-web.vercel.app',
+        'https://in-ventry-w-eb.vercel.app', // Added based on your previous screenshot
+        'http://localhost:5173',
+        'http://localhost:3000'
+    ],
+    methods: ['GET', 'POST', 'PUT', 'DELETE', 'OPTIONS'],
+    allowedHeaders: ['Content-Type', 'Authorization'],
+    credentials: true,
+    optionsSuccessStatus: 200
+};
+
+app.use(cors(corsOptions));
 if (process.env.NODE_ENV === 'development') {
     app.use(morgan('dev'));
 }
